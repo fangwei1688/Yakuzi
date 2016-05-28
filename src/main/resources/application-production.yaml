@@ -1,0 +1,18 @@
+spring:
+  profiles: production
+  config:
+    name: &name yakuzi-prod
+  application:
+    name: *name
+  freemarker:
+    enabled: false
+
+server:
+  port: 8089
+
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+

@@ -1,0 +1,23 @@
+spring:
+  profiles: development
+  config:
+    name: &name yakuzi-dev
+  application:
+    name: *name
+  freemarker:
+    enabled: false
+
+server:
+  port: 8099
+
+logging:
+  level:
+    org:
+      springframework:
+        web: INFO
+
+yakuzi:
+  redis:
+    - 127.0.0.1:6379
+    - 127.0.0.1:6380
+    - 127.0.0.1:6381
