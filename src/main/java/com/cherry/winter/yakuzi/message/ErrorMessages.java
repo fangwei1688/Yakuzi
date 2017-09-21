@@ -1,4 +1,4 @@
-package com.cherry.winter.yakuzi.Message;
+package com.cherry.winter.yakuzi.message;
 
 import javax.ws.rs.core.Response;
 

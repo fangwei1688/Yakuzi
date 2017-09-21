@@ -2,20 +2,21 @@ package com.cherry.winter.yakuzi.model;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
-import javax.validation.constraints.NotNull;
 
 /**
- * Created by Fangwei on 16/5/15.
+ *
+ * @author Fangwei
+ * @date 16/5/15
  */
 public class ProductInfo {
   @Min(1)
-  @Max(99999999999999l)
+  @Max(99999999999999L)
   private long productId;
-  @Min(1463928236_000l)
-  @Max(9999999999_999l)
+  @Min(1463928236_000L)
+  @Max(9999999999_999L)
   private long startAt;
-  @Min(1463928236_000l)
-  @Max(9999999999_999l)
+  @Min(1463928236_000L)
+  @Max(9999999999_999L)
   private long endAt;
   @Min(1)
   @Max(999999)
